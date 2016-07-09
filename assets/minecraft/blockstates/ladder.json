@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "ladder", "y": 180 },
+        "facing=east":  { "model": "ladder", "y": 270 },
+        "facing=south": { "model": "ladder" },
+        "facing=west":  { "model": "ladder", "y": 90 }
+    }
+}
