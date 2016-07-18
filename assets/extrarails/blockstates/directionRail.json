@@ -1,0 +1,39 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "extrarails:directionRail"
+	},
+	"variants": {
+		"shape": {
+			"north_south": {},
+			"east_west": {}
+		},
+		"facing": {
+			"north": {},
+			"south": {
+				"y": 180
+			},
+			"west": {
+				"y": -90
+			},
+			"east": {
+				"y": 90
+			}
+		},
+		"powered": {
+			"true": {
+				"textures": {
+					"arrow": "minecraft:blocks/redstone_block",
+					"particle": "extrarails:blocks/directionRail/active"
+				}
+			},
+			"false": {
+				
+				"textures": {
+					"arrow": "minecraft:blocks/wool_colored_red",
+					"particle": "extrarails:blocks/directionRail/inactive"
+				}
+			}
+		}
+	}
+}

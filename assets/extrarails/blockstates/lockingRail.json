@@ -1,0 +1,38 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "extrarails:lockingRail"
+	},
+	"variants": {
+		"shape": {
+			"north_south": {},
+			"east_west": {}
+		},
+		"facing": {
+			"north": {},
+			"south": {
+				"y": 180
+			},
+			"west": {
+				"y": -90
+			},
+			"east": {
+				"y": 90
+			}
+		},
+		"powered": {
+			"true": {
+				"textures": {
+					"lock": "minecraft:blocks/redstone_block",
+					"particle": "extrarails:blocks/lockingRail/active"
+				}
+			},
+			"false": {
+				"textures": {
+					"lock": "minecraft:blocks/wool_colored_red",
+					"particle": "extrarails:blocks/lockingRail/inactive"
+				}
+			}
+		}
+	}
+}
